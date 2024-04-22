@@ -1,0 +1,105 @@
+.caixa-cinza{
+    background-color:#ccca;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    align-items: flex-start;
+}
+
+.caixa-direction {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+
+}
+
+.numero {
+    font-size: 150%;
+    color: yellow;
+    font-weight: bold;
+}
+
+.circulo{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.caixa-branca {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    padding: 20px;
+    flex-flow: row wrap;
+}
+
+.caixa-wrap{
+    width: 200px;
+    height: 50px;
+    background-color: #ff7b00;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    border-radius: 10%;
+}
+
+.caixa-azul{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center;
+
+    
+}
+
+.caixa-justify {
+    width: 100px;
+    height: 100px;
+    background-color: #fab778;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.pai-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.caixa-azul2{
+    background-color: rgb(95, 95, 167);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px;
+    height: 600px;
+    width: 111px;
+    justify-content: center;
+}
+
+.caixa-justify2 {
+    width: 100px;
+    height: 100px;
+    background-color: #ec7200;
+    margin: 5px;
+    border-radius: 10px;
+}
