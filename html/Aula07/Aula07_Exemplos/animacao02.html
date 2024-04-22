@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplo de Animação CSS</title>
+<style>
+/* Estilos para o botão */
+.button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Animação quando o cursor passa sobre o botão */
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Animação ao clicar no botão */
+.button:active {
+  background-color: #003d80;
+}
+
+/* Estilização de texto */
+.text {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Animação de cor para o texto */
+.text:hover {
+  color: #ff6600;
+}
+</style>
+</head>
+<body>
+
+<button class="button">Clique Aqui</button>
+<p class="text">Passe o mouse aqui para ver a animação de texto</p>
+
+</body>
+</html>

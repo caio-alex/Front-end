@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Animation</title>
+    <style>
+        .position-animation {
+            width: 100px;
+            height: 100px;
+            background-color: #e74c3c;
+            position: relative;
+            animation: move 2s infinite alternate;
+        }
+
+        @keyframes move {
+            0% {
+                left: 0;
+            }
+
+            100% {
+                left: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="position-animation"></div>
+</body>
+
+</html>
