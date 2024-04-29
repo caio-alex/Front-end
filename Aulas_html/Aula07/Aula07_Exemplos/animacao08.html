@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Animations</title>
+<style>
+    /* Animação de mudança de cor e transição */
+    .color-change {
+        color: #FF5733;
+        transition: color 0.5s ease-in-out;
+    }
+    .color-change:hover {
+        color: #33FF57;
+    }
+
+    /* Animação de tipografia */
+    .font-animation {
+        font-size: 16px;
+        transition: font-size 0.3s ease-in-out;
+    }
+    .font-animation:hover {
+        font-size: 20px;
+    }
+
+    /* Animação de box modeling */
+    .box-animation {
+        width: 100px;
+        height: 100px;
+        background-color: #3498db;
+        transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+    }
+    .box-animation:hover {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Animação de posicionamento */
+    .position-animation {
+        position: relative;
+        left: 0;
+        transition: left 0.5s ease-in-out;
+    }
+    .position-animation:hover {
+        left: 50px;
+    }
+
+    /* Pseudo-classe e Pseudo-elemento */
+    .pseudo-example::before {
+        content: "Before";
+        color: #e74c3c;
+    }
+    .pseudo-example:hover::before {
+        content: "Hovered";
+        color: #2ecc71;
+    }
+
+    /* Gradiente */
+    .gradient-background {
+        background: linear-gradient(to right, #ff7e5f, #f7c7a2);
+    }
+
+    /* Transformações */
+    .transform-example {
+        transition: transform 0.5s ease-in-out;
+    }
+    .transform-example:hover {
+        transform: scale(1.2);
+    }
+
+    /* Animações personalizadas */
+    @keyframes slidein {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    .custom-animation {
+        animation: slidein 1s forwards;
+    }
+</style>
+</head>
+<body>
+
+<!-- Exemplo de animações -->
+<h2 class="color-change">Mudança de Cor</h2>
+<p class="font-animation">Animação de Tipografia</p>
+<div class="box-animation"></div>
+<div class="position-animation">Animação de Posicionamento</div>
+<div class="pseudo-example">Pseudo-classes e Pseudo-elementos</div>
+<div class="gradient-background" style="height: 100px;"></div>
+<div class="transform-example" style="width: 100px; height: 100px; background-color: #3498db;"></div>
+<div class="custom-animation" style="width: 100px; height: 100px; background-color: #e74c3c;"></div>
+
+</body>
+</html>

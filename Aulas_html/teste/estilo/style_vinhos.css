@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+     text-align: center; /*centralizar o texto do body */
+     background-color:floralwhite;
+     font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+p{
+    padding-inline: 10%;
+    color: #ffffff;
+}
+h1{
+    color:crimson;
+}
+.menu {
+    margin: 20px 0; /*tamanho*/
+    list-style: none; /*tira o marcador de lista*/
+    padding: 15px 0; /*distancia para borda */
+    display:flex; 
+    align-items: center;
+    background-color:darkred;
+}
+
+.menu_item {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    margin-right: 20px;
+}
+.menu_item a {
+    text-decoration: none; /*tira o listrado das letras */
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.vinho1{
+    width: 50%;
+    height: 60%;
+}
+
+.caixinha{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    transition: all 0.5s ease-out;
+}
+
+#box2:hover {
+    background-color: red;
+    transform: scale(1.5);
+}
+
+.vinho2{
+    width: 40%;
+    height: 40%;
+}
+
+div.transition {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 2s;
+}
+
+div.transition:hover {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    background-color: darkred;
+}
+
+footer {
+	background-color: darkred;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.insta{
+    
+    cursor: pointer;
+    width: 6%;
+    height: 6%;
+}
+
+.fileira{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    border: 2px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+}

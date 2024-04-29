@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplos de CSS com animações</title>
+<style>
+    /* Cores */
+    .color-animation {
+        background-color: #3498db;
+        transition: background-color 0.5s ease;
+    }
+    .color-animation:hover {
+        background-color: #e74c3c;
+    }
+
+    /* Tipografia */
+    .text-animation {
+        font-size: 24px;
+        transition: font-size 0.5s ease;
+    }
+    .text-animation:hover {
+        font-size: 36px;
+    }
+
+    /* Box Modeling */
+    .box-animation {
+        width: 100px;
+        height: 100px;
+        background-color: #2ecc71;
+        transition: width 0.5s ease, height 0.5s ease;
+    }
+    .box-animation:hover {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Posicionamento dos elementos */
+    .position-animation {
+        position: relative;
+        left: 0;
+        transition: left 0.5s ease;
+    }
+    .position-animation:hover {
+        left: 50px;
+    }
+
+    /* Pseudo-classes e Pseudo-elementos */
+    .pseudo-animation::before {
+        content: ' ';
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: #9b59b6;
+        transition: transform 0.5s ease;
+    }
+    .pseudo-animation:hover::before {
+        transform: rotate(45deg);
+    }
+
+    /* Gradiente */
+    .gradient-animation {
+        background: linear-gradient(to right, #1abc9c, #3498db);
+        transition: background 0.5s ease;
+    }
+    .gradient-animation:hover {
+        background: linear-gradient(to right, #f1c40f, #e67e22);
+    }
+
+    /* Transformações */
+    .transform-animation {
+        transition: transform 0.5s ease;
+    }
+    .transform-animation:hover {
+        transform: scale(1.2);
+    }
+
+    /* Transições */
+    .transition-animation {
+        transition: opacity 0.5s ease;
+    }
+    .transition-animation:hover {
+        opacity: 0.5;
+    }
+
+    /* Animações */
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    .animation-example {
+        animation: pulse 2s infinite;
+    }
+</style>
+</head>
+<body>
+    <div class="color-animation">Cor Animation</div>
+    <div class="text-animation">Tipografia Animation</div>
+    <div class="box-animation"></div>
+    <div class="position-animation">Posicionamento Animation</div>
+    <div class="pseudo-animation">Pseudo-elemento Animation</div>
+    <div class="gradient-animation">Gradiente Animation</div>
+    <div class="transform-animation">Transformação Animation</div>
+    <div class="transition-animation">Transição Animation</div>
+    <div class="animation-example">Animação Example</div>
+</body>
+</html>

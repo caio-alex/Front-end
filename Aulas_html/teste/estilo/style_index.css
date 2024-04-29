@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+     text-align: center; /*centralizar o texto do body */
+     background-color:floralwhite;
+     font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+p{
+    padding-inline: 10%;
+}
+
+span.placeat{
+    display: inline;
+    text-decoration:underline;
+
+}
+
+span.a{
+    display: inline;
+    color:  crimson;
+}
+
+h1{
+    color:crimson;
+}
+
+.imagem_1{
+    box-shadow: 0 4px 8px black;
+    border-radius: 10%;
+}
+
+.menu {
+    margin: 20px 0; /*tamanho*/
+    list-style: none; /*tira o marcador de lista*/
+    padding: 15px 0; /*distancia para borda */
+    display:flex; 
+    align-items: center;
+    background-color:darkred;
+}
+
+.menu_item {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    margin-right: 20px;
+}
+.menu_item a {
+    text-decoration: none; /*tira o listrado das letras */
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.card{
+    display:inline-block;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px black;
+    background-color: #ffffff;
+}
+
+.botao_card {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+	background-color: darkred;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.insta{
+    
+    cursor: pointer;
+    width: 6%;
+    height: 6%;
+}
