@@ -1,0 +1,15 @@
+.pai{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.filho{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: wheat;
+}

@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:darkgreen;
+    font-weight: bold;
+    background-color: beige;
+}
+
+hr{
+    background-color: red;
+    width: 600px;
+}
+
+.caixa{
+    background-color: aqua;
+    height: 10px;
+    width: 10px;
+    padding: 20px 200px 50px 10px;
+    margin-top: 100px;
+    border: 10px blue solid;
+}
+
+.mae{
+    background-color: burlywood;
+    width: 200px;
+    
+    border: black dashed;
+}
+
+.nome_mae{
+    padding-left: 40px;
+}
+
+.filho{
+    background-color: palevioletred;
+    width: 80%;
+    padding: 30px 0 20px 30px;
+    box-sizing: border-box; 
+}
+
+.bloco{
+    background-color: chocolate;
+    width: 150px;
+    height: 80px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+.blocos{
+display:flex;
+flex-wrap:wrap;
+}
+
+.nome{
+    padding-left: 10px;
+    color: blue;
+}
+
+.bloco:hover{
+    background-color:yellow;
+    border: 1px red solid;
+
+}
+
+.aula6{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.bl{
+    background-color: greenyellow;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.bl:active{
+    background-color: red ;   
+}
+
+.campo_texto{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: purple solid;
+    color: red;
+}
+
+.campo_texto:focus{
+    background-color: cornflowerblue;
+}
+
+.links{
+   text-decoration: none;
+   color: black;
+}
+
+.lista{
+    list-style: none;
+    background-color: cornflowerblue;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    margin-left: 300px;
+    color: black;
+    border-radius: 10px;
+    border: gold solid;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item::after{
+    content: '-';
+}
+
+.item::first-letter{
+    color: red;
+    text-transform: lowercase;
+}
+
+.lista::first-line{
+    color: aqua;
+}
+
+.texto::first-letter{
+    font-size: 100px;
+    float: left;
+}
+
+.texto{
+    margin-left: 40px;
+    color: black;
+}
+
+.texto::first-line{
+    background-color: red;
+}
+
+.texto:hover{
+    color:darkgrey;
+}
+
+.texto::selection{
+    background-color: black;
+}
