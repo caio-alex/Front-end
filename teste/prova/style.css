@@ -1,0 +1,73 @@
+*{
+box-sizing: border-box;
+margin: 0;
+text-decoration: none;
+}
+
+@keyframes degrade {
+    0%{background-position-x: 0%;}
+    100%{background-position-x: 100%;}
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: ghostwhite;
+}
+
+
+.cabecalho{
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(to left, purple, red);
+    background-size:  300% 100%;
+    animation: degrade 3s infinite alternate;
+}
+
+.titulo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    color: white;
+}
+
+.item{
+    color: white;
+    height: 50px;
+    width: 110px;
+
+}
+
+.item:hover{
+    transform: scale(1.5,1);
+    transition: 1s;
+}
+
+.item:active{
+    color: black;
+}
+
+.texto_inicio{
+    color: rgb(63, 41, 41);
+    
+}
+
+.texto1{
+    width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
